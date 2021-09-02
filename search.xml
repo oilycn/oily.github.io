@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>配置谷歌云SSH远程连接</title>
+      <link href="/2021/09/02/%E9%85%8D%E7%BD%AE%E8%B0%B7%E6%AD%8C%E4%BA%91SSH%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5/"/>
+      <url>/2021/09/02/%E9%85%8D%E7%BD%AE%E8%B0%B7%E6%AD%8C%E4%BA%91SSH%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5/</url>
+      
+        <content type="html"><![CDATA[<h3 id="1-用root用户登入"><a href="#1-用root用户登入" class="headerlink" title="1.用root用户登入"></a>1.用root用户登入</h3><ul><li>进入谷歌云实例面板</li></ul><h3 id="2-切换到root角色"><a href="#2-切换到root角色" class="headerlink" title="2.切换到root角色"></a>2.切换到root角色</h3><p><code>sudo -i</code></p><h3 id="3-修改SSH配置文件-etc-ssh-sshd-config"><a href="#3-修改SSH配置文件-etc-ssh-sshd-config" class="headerlink" title="3.修改SSH配置文件/etc/ssh/sshd_config"></a>3.修改SSH配置文件/etc/ssh/sshd_config</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sed -i &#x27;s/#PermitRootLogin prohibit-password/PermitRootLogin yes/g&#x27; /etc/ssh/sshd_config</span><br><span class="line">sed -i &#x27;s/PasswordAuthentication no/PasswordAuthentication yes/g&#x27; /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure><h3 id="4-给root用户设置密码"><a href="#4-给root用户设置密码" class="headerlink" title="4.给root用户设置密码"></a>4.给root用户设置密码</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">passwd root</span><br></pre></td></tr></table></figure><h3 id="5-重启SSH服务使修改生效"><a href="#5-重启SSH服务使修改生效" class="headerlink" title="5.重启SSH服务使修改生效"></a>5.重启SSH服务使修改生效</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/etc/init.d/ssh restart</span><br></pre></td></tr></table></figure><h3 id="6-登录"><a href="#6-登录" class="headerlink" title="6.登录"></a>6.登录</h3><p>在xshell中，直接使用root账号密码登录。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> VPS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 谷歌云 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>安装 X-UI 面板</title>
       <link href="/2021/08/30/%E5%AE%89%E8%A3%85-X-UI-%E9%9D%A2%E6%9D%BF/"/>
       <url>/2021/08/30/%E5%AE%89%E8%A3%85-X-UI-%E9%9D%A2%E6%9D%BF/</url>
