@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Caddy反向代理</title>
+      <link href="/2021/09/07/Caddy%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/"/>
+      <url>/2021/09/07/Caddy%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<h3 id="在墙国最爱的就是反向代理了！"><a href="#在墙国最爱的就是反向代理了！" class="headerlink" title="在墙国最爱的就是反向代理了！"></a>在墙国最爱的就是反向代理了！</h3><ul><li>Nginx虽然强壮但是反向代理google还需要安装一些模块</li><li>而caddy自带proxy功能，你所需的只是caddyfile里面加一句代码~！</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">https://mydoamin.com </span><br><span class="line">&#123; </span><br><span class="line"> gzip  </span><br><span class="line">tls /root/xxx.crt /root/xxx.key  </span><br><span class="line">proxy / https://www.google.com </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li><p>google全站是https的因此这里也要有反代https，而caddy默认就是https的，自动部署自动更新，你只需要将crt路径写对就好。</p></li><li><p>这里可以用一键脚本安装caddy</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget -N --no-check-certificate https://raw.githubusercontent.com/oxmosama/oxmo/WanFeng/Caddy/caddy_install.sh &amp;&amp; chmod +x caddy_install.sh &amp;&amp; bash caddy_install.sh</span><br></pre></td></tr></table></figure></li><li><p>安装目录：/usr/local/caddy Caddy</p></li><li><p>配置文件位置：/usr/local/caddy/Caddyfile Caddy</p></li><li><p>自动申请SSL证书位置：/.caddy/acme/acme-v01.api.letsencrypt.org/sites/xxx.xxx(域名)/</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> VPS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 反向代理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>DXF基址特征码(维护更新)</title>
       <link href="/2021/09/04/DXF%E5%9F%BA%E5%9D%80%E7%89%B9%E5%BE%81%E7%A0%81-%E7%BB%B4%E6%8A%A4%E6%9B%B4%E6%96%B0/"/>
       <url>/2021/09/04/DXF%E5%9F%BA%E5%9D%80%E7%89%B9%E5%BE%81%E7%A0%81-%E7%BB%B4%E6%8A%A4%E6%9B%B4%E6%96%B0/</url>
