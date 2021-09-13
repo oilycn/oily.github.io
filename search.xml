@@ -8,7 +8,7 @@
       <link href="/2021/09/13/Pascal%E6%95%99%E7%A8%8B%E8%AE%A1%E5%88%92/"/>
       <url>/2021/09/13/Pascal%E6%95%99%E7%A8%8B%E8%AE%A1%E5%88%92/</url>
       
-        <content type="html"><![CDATA[<h3 id="大概框架（随时更新补充）"><a href="#大概框架（随时更新补充）" class="headerlink" title="大概框架（随时更新补充）"></a>大概框架（随时更新补充）</h3><h4 id="Lazarus独立编写软件"><a href="#Lazarus独立编写软件" class="headerlink" title="Lazarus独立编写软件"></a>Lazarus独立编写软件</h4><ul><li>Lazarus安装和配置</li><li>了解一个工程文件的基本结构</li><li>了解Pascal数据类型</li><li>简单函数的运用</li><li>Api的了解与运用</li></ul><h4 id="编译属于自己的CheatEngine"><a href="#编译属于自己的CheatEngine" class="headerlink" title="编译属于自己的CheatEngine"></a>编译属于自己的<img src="https://gitee.com/oxmo/pic-go/raw/master/PicGo/202109132310516.png" width = "35" height = "30" alt="ce"/>CheatEngine</h4><ul><li>简单的改界面，文字</li><li>内置函数的了解</li><li>如何自身启动获取最高权限</li><li>改内置函数达到自己想要的效果，例如：数据三秒消失等。。</li></ul><blockquote><p>看反应情况吧，可能就计划夭折了呢~</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<h3 id="大概框架（随时更新补充）"><a href="#大概框架（随时更新补充）" class="headerlink" title="大概框架（随时更新补充）"></a>大概框架（随时更新补充）</h3><h4 id="Lazarus独立编写软件"><a href="#Lazarus独立编写软件" class="headerlink" title="Lazarus独立编写软件"></a>Lazarus独立编写软件</h4><ul><li>Lazarus安装和配置</li><li>了解一个工程文件的基本结构</li><li>了解Pascal数据类型</li><li>简单函数的运用</li><li>Api的了解与运用</li></ul><div>    <h3>编译属于自己的<img src="https://gitee.com/oxmo/pic-go/raw/master/PicGo/202109132310516.png" width = "35" height = "30" alt="ce"/>CheatEngine</h3></div><ul><li>简单的改界面，文字</li><li>内置函数的了解</li><li>如何自身启动获取最高权限</li><li>改内置函数达到自己想要的效果，例如：数据三秒消失等。。</li></ul><blockquote><p>看反应情况吧，可能就计划夭折了呢~</p></blockquote>]]></content>
       
       
       <categories>
