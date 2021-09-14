@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Lazarus工程文件基本结构</title>
+      <link href="/2021/09/14/Lazarus%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84/"/>
+      <url>/2021/09/14/Lazarus%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84/</url>
+      
+        <content type="html"><![CDATA[<h3 id="偷点懒，点击挑战到文章地址"><a href="#偷点懒，点击挑战到文章地址" class="headerlink" title="偷点懒，点击挑战到文章地址"></a>偷点懒，点击挑战到文章地址</h3><p><a href="http://www.360doc.com/content/18/1230/17/541242_805495032.shtml">用Lazarus编写第一个程序Pascal版的hello world</a></p><blockquote><p>下面这篇比较详细，可以仔细看看</p></blockquote><p><a href="https://blog.csdn.net/weixin_30587927/article/details/94955912">Delphi、Lazarus保留字、关键字详解</a></p><h4 id="这边讲下几个类型"><a href="#这边讲下几个类型" class="headerlink" title="这边讲下几个类型"></a>这边讲下几个类型</h4><p><img src="https://gitee.com/oxmo/pic-go/raw/master/PicGo/202109141656202.png" alt="image-20210914165559617"></p><ul><li>应用程序：就是标准的图形化程序</li><li>简单程序：顾名思义在标准程序下缩减了一些内容</li><li>程序：同上</li><li>控制台应用程序：黑窗口程序</li><li>库：静态链接库，常说的dll</li></ul><h3 id="生成应用程序界面"><a href="#生成应用程序界面" class="headerlink" title="生成应用程序界面"></a>生成应用程序界面</h3><p><img src="https://gitee.com/oxmo/pic-go/raw/master/PicGo/202109141701392.png" alt="image-20210914170126267"></p><ul><li>use 是 引用包 类似于 C语言中的#inlcude 不过有所区别</li><li>unit 是指单元 单元文件中包含已编译的函数 你可以直接使用</li><li>interface是 单元文件中的 表示 单元文件提供给调用者的 接口函数之类的</li><li>type 是类型定义</li><li>private 是私有类</li><li>public 是 公共类</li></ul><blockquote><p>以上百度的，参考一下</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Pascal教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Pascal </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Lazarus安装和配置</title>
       <link href="/2021/09/14/Lazarus%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE/"/>
       <url>/2021/09/14/Lazarus%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE/</url>
@@ -33,7 +58,7 @@
       <link href="/2021/09/13/Pascal%E6%95%99%E7%A8%8B%E8%AE%A1%E5%88%92/"/>
       <url>/2021/09/13/Pascal%E6%95%99%E7%A8%8B%E8%AE%A1%E5%88%92/</url>
       
-        <content type="html"><![CDATA[<h3 id="大概框架（随时更新补充）"><a href="#大概框架（随时更新补充）" class="headerlink" title="大概框架（随时更新补充）"></a>大概框架（随时更新补充）</h3><h4 id="Lazarus独立编写软件"><a href="#Lazarus独立编写软件" class="headerlink" title="Lazarus独立编写软件"></a>Lazarus独立编写软件</h4><ul><li><a href="/2021/09/14/Lazarus%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE">Lazarus安装和配置</a></li><li>了解一个工程文件的基本结构</li><li>了解Pascal数据类型</li><li>简单函数的运用</li><li>Api的了解与运用</li></ul><h3 id="编译属于自己的CheatEngine"><a href="#编译属于自己的CheatEngine" class="headerlink" title="编译属于自己的CheatEngine"></a>编译属于自己的CheatEngine</h3><ul><li>简单的改界面，文字</li><li>内置函数的了解</li><li>如何自身启动获取最高权限</li><li>改内置函数达到自己想要的效果，例如：数据三秒消失等。。</li></ul><blockquote><p>看反应情况吧，可能就计划夭折了呢~</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<h3 id="大概框架（随时更新补充）"><a href="#大概框架（随时更新补充）" class="headerlink" title="大概框架（随时更新补充）"></a>大概框架（随时更新补充）</h3><h4 id="Lazarus独立编写软件"><a href="#Lazarus独立编写软件" class="headerlink" title="Lazarus独立编写软件"></a>Lazarus独立编写软件</h4><ul><li><a href="/2021/09/14/Lazarus%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE">Lazarus安装和配置</a></li><li><a href="/2021/09/14/Lazarus%E5%B7%A5%E7%A8%8B%E6%96%87%E4%BB%B6%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84">Lazarus工程文件基本结构</a></li><li>了解Pascal数据类型</li><li>简单函数的运用</li><li>Api的了解与运用</li></ul><h3 id="编译属于自己的CheatEngine"><a href="#编译属于自己的CheatEngine" class="headerlink" title="编译属于自己的CheatEngine"></a>编译属于自己的CheatEngine</h3><ul><li>简单的改界面，文字</li><li>内置函数的了解</li><li>如何自身启动获取最高权限</li><li>改内置函数达到自己想要的效果，例如：数据三秒消失等。。</li></ul><blockquote><p>看反应情况吧，可能就计划夭折了呢~</p></blockquote>]]></content>
       
       
       <categories>
