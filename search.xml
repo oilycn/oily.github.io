@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>关于PicGo在科学上网GitHub上传失败的解决方法</title>
+      <link href="/2021/09/15/%E5%85%B3%E4%BA%8EPicGo%E5%9C%A8%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91GitHub%E4%B8%8A%E4%BC%A0%E5%A4%B1%E8%B4%A5%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+      <url>/2021/09/15/%E5%85%B3%E4%BA%8EPicGo%E5%9C%A8%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91GitHub%E4%B8%8A%E4%BC%A0%E5%A4%B1%E8%B4%A5%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h3 id="PicGo包含GitHub图床和GitHubPlus上传失败的原因"><a href="#PicGo包含GitHub图床和GitHubPlus上传失败的原因" class="headerlink" title="PicGo包含GitHub图床和GitHubPlus上传失败的原因"></a>PicGo包含GitHub图床和GitHubPlus上传失败的原因</h3><blockquote><p>在科学上网环境中，GitHub的图床上传总是失败</p></blockquote><h4 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h4><p>在代理直连规则里面将【api.github.com】加入直连域名列表即可</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 图床 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PicGo </tag>
+            
+            <tag> GitHub </tag>
+            
+            <tag> 图床 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>了解Pascal数据类型</title>
       <link href="/2021/09/14/%E4%BA%86%E8%A7%A3Pascal%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
       <url>/2021/09/14/%E4%BA%86%E8%A7%A3Pascal%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</url>
@@ -171,35 +200,6 @@
         <tags>
             
             <tag> 反向代理 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>关于PicGo在科学上网GitHub上传失败的解决方法</title>
-      <link href="/2021/09/04/%E5%85%B3%E4%BA%8EPicGo%E5%9C%A8%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91GitHub%E4%B8%8A%E4%BC%A0%E5%A4%B1%E8%B4%A5%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
-      <url>/2021/09/04/%E5%85%B3%E4%BA%8EPicGo%E5%9C%A8%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91GitHub%E4%B8%8A%E4%BC%A0%E5%A4%B1%E8%B4%A5%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
-      
-        <content type="html"><![CDATA[<h3 id="PicGo包含GitHub图床和GitHubPlus上传失败的原因"><a href="#PicGo包含GitHub图床和GitHubPlus上传失败的原因" class="headerlink" title="PicGo包含GitHub图床和GitHubPlus上传失败的原因"></a>PicGo包含GitHub图床和GitHubPlus上传失败的原因</h3><blockquote><p>在科学上网环境中，GitHub的图床上传总是失败</p></blockquote><h4 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h4><p>在代理直连规则里面将【api.github.com】加入直连域名列表即可</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 图床 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> PicGo </tag>
-            
-            <tag> GitHub </tag>
-            
-            <tag> 图床 </tag>
             
         </tags>
       
