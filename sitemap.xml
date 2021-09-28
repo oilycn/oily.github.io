@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wfpas.com/2021/08/29/hello-world/</loc>
+    
+    <lastmod>2021-09-28</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wfpas.com/2021/09/28/Euserv%E8%87%AA%E5%8A%A8%E7%BB%AD%E6%9C%9FPython%E8%84%9A%E6%9C%AC/</loc>
+    
+    <lastmod>2021-09-28</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://wfpas.com/2021/09/28/%E5%AE%9D%E5%A1%94%E5%AE%89%E8%A3%85Python3%E7%8E%AF%E5%A2%83/</loc>
     
     <lastmod>2021-09-28</lastmod>
@@ -66,13 +80,6 @@
   
   <url>
     <loc>https://wfpas.com/2021/09/08/%E6%99%9A%E9%A3%8EMT%E7%9B%B4%E6%8E%A5%E8%8E%B7%E5%8F%96%E7%89%B9%E5%BE%81%E7%A0%81%E6%95%99%E7%A8%8B/</loc>
-    
-    <lastmod>2021-09-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wfpas.com/2021/08/29/hello-world/</loc>
     
     <lastmod>2021-09-13</lastmod>
     
@@ -158,6 +165,20 @@
   </url>
   
   <url>
+    <loc>https://wfpas.com/tags/Euserv/</loc>
+    <lastmod>2021-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://wfpas.com/tags/%E8%84%9A%E6%9C%AC/</loc>
+    <lastmod>2021-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://wfpas.com/tags/Hexo/</loc>
     <lastmod>2021-09-28</lastmod>
     <changefreq>daily</changefreq>
@@ -166,13 +187,6 @@
   
   <url>
     <loc>https://wfpas.com/tags/Pascal/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://wfpas.com/tags/%E8%84%9A%E6%9C%AC/</loc>
     <lastmod>2021-09-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -244,6 +258,13 @@
   </url>
   
   <url>
+    <loc>https://wfpas.com/categories/Python/</loc>
+    <lastmod>2021-09-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://wfpas.com/categories/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2021-09-28</lastmod>
     <changefreq>daily</changefreq>
@@ -258,13 +279,6 @@
   </url>
   
   <url>
-    <loc>https://wfpas.com/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
-    <lastmod>2021-09-28</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://wfpas.com/categories/%E5%9B%BE%E5%BA%8A/</loc>
     <lastmod>2021-09-28</lastmod>
     <changefreq>daily</changefreq>
@@ -272,7 +286,7 @@
   </url>
   
   <url>
-    <loc>https://wfpas.com/categories/Python/</loc>
+    <loc>https://wfpas.com/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
     <lastmod>2021-09-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

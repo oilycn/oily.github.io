@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Euserv自动续期Python脚本</title>
+      <link href="/2021/09/28/Euserv%E8%87%AA%E5%8A%A8%E7%BB%AD%E6%9C%9FPython%E8%84%9A%E6%9C%AC/"/>
+      <url>/2021/09/28/Euserv%E8%87%AA%E5%8A%A8%E7%BB%AD%E6%9C%9FPython%E8%84%9A%E6%9C%AC/</url>
+      
+        <content type="html"><![CDATA[<h1 id="EUserv-extend"><a href="#EUserv-extend" class="headerlink" title="EUserv_extend"></a>EUserv_extend</h1><p>自动续期EUserv免费IPv6 VPS脚本</p><h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>自动获取账号内所有的VPS项目，并检测是否需要续期，需要续期会自动续期。</p><h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><p>1、修改 <strong>main.py</strong> 中的用户名，密码，并配置合适的推送方式（<a href="https://sc.ftqq.com/?c=code">Server酱</a>、<a href="https://cp.xuthus.cc/">酷推</a>、<a href="https://pushplus.hxtrip.com/message">PushPlus</a>、<a href="https://core.telegram.org/bots/api#authorizing-your-bot">Telegram Bot Push</a> 或 <a href="https://github.com/easychen/wecomchan">wecomchan</a>）</p><p>USERNAME: 你的EUserv账户邮箱或Customer ID</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">USERNAME = &#x27;user@gmail.com&#x27;</span><br><span class="line">USERNAME = &#x27;user1@gmail.com user2@gmail.com&#x27; # 多个账号写法</span><br></pre></td></tr></table></figure><p>PASSWORD: 账户的密码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">PASSWORD = &#x27;password&#x27;</span><br><span class="line">PASSWORD = &#x27;password1 password2&#x27; # 多个账号写法</span><br></pre></td></tr></table></figure><details>  <summary>Server酱</summary>  <pre><code> SCKEY = 'SCU64664Tfb2052dc10382535c3dd19e48ba000fc5dacd6a5dc3f6'  </code></pre></details><details>  <summary>酷推</summary><pre><code> COOLPUSH_SKEY = ''# 通知类型 CoolPush_MODE的可选项有（默认send）：send[QQ私聊]、group[QQ群聊]、wx[个微]、ww[企微]COOLPUSH_MODE = 'send'</code></pre></details><details>  <summary>PushPlus</summary><pre><code> PUSHPLUS_TOKEN = ''</code></pre></details><details>  <summary>Telegram Bot Push</summary><pre><code> TG_BOT_TOKEN = '' # 通过 @BotFather 申请获得，示例：1077xxx4424:AAFjv0FcqxxxxxxgEMGfi22B4yh15R5uwTG_USER_ID = '' # 用户、群组或频道 ID，示例：129xxx206TG_API_HOST = 'api.telegram.org' # 自建 API 反代地址，供网络环境无法访问时使用，网络正常则保持默认</code></pre></details><details>  <summary>wecomchan</summary>具体可参考 https://github.com/easychen/wecomchan/tree/main/go-scf<pre><code> WECOMCHAN_DOMAIN = ''  # 你的服务器的主页 例: https://example.com/WECOMCHAN_SEND_KEY = ''  # 你配置的keyWECOMCHAN_TO_USER = '@all'  # 默认全部推送, 对个别人推送可用 User1|User2</code></pre></details>> 可配合宝塔计划任务自动执行！]]></content>
+      
+      
+      <categories>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Euserv </tag>
+            
+            <tag> 脚本 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>宝塔安装Python3环境</title>
       <link href="/2021/09/28/%E5%AE%9D%E5%A1%94%E5%AE%89%E8%A3%85Python3%E7%8E%AF%E5%A2%83/"/>
       <url>/2021/09/28/%E5%AE%9D%E5%A1%94%E5%AE%89%E8%A3%85Python3%E7%8E%AF%E5%A2%83/</url>
@@ -341,7 +368,7 @@
       <link href="/2021/08/29/hello-world/"/>
       <url>/2021/08/29/hello-world/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><blockquote><p>快速部署</p></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo cl &amp;&amp; hexo g &amp;&amp; gulp &amp;&amp; hexo d</span><br></pre></td></tr></table></figure><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
       
