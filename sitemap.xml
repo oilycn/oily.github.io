@@ -165,13 +165,6 @@
   </url>
   
   <url>
-    <loc>https://hexo.oily.cn/tags/DXF/</loc>
-    <lastmod>2022-08-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hexo.oily.cn/tags/Euserv/</loc>
     <lastmod>2022-08-25</lastmod>
     <changefreq>daily</changefreq>
@@ -187,6 +180,13 @@
   
   <url>
     <loc>https://hexo.oily.cn/tags/Hexo/</loc>
+    <lastmod>2022-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hexo.oily.cn/tags/DXF/</loc>
     <lastmod>2022-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -258,13 +258,6 @@
   </url>
   
   <url>
-    <loc>https://hexo.oily.cn/categories/%E6%99%9A%E9%A3%8EMemoryTools/</loc>
-    <lastmod>2022-08-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hexo.oily.cn/categories/Python/</loc>
     <lastmod>2022-08-25</lastmod>
     <changefreq>daily</changefreq>
@@ -279,6 +272,13 @@
   </url>
   
   <url>
+    <loc>https://hexo.oily.cn/categories/%E6%99%9A%E9%A3%8EMemoryTools/</loc>
+    <lastmod>2022-08-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hexo.oily.cn/categories/Pascal%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-08-25</lastmod>
     <changefreq>daily</changefreq>
@@ -286,14 +286,14 @@
   </url>
   
   <url>
-    <loc>https://hexo.oily.cn/categories/%E5%9B%BE%E5%BA%8A/</loc>
+    <loc>https://hexo.oily.cn/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
     <lastmod>2022-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://hexo.oily.cn/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
+    <loc>https://hexo.oily.cn/categories/%E5%9B%BE%E5%BA%8A/</loc>
     <lastmod>2022-08-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
