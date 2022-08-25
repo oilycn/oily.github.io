@@ -271,7 +271,7 @@ for(var i = 0;i<arr.length;i++){
 
                         if( document.getElementById('recent-posts') && (location.pathname ==='/'|| '/' ==='all')){
                             gitcalendar_injector_config()
-                            GitCalendarInit("https://calendar.oily.cn/api?wfpas",['#e4dfd7', '#f9f4dc', '#f7e8aa', '#f7e8aa', '#f8df72', '#fcd217', '#fcc515', '#f28e16', '#fb8b05', '#d85916', '#f43e06'],'wfpas')
+                            GitCalendarInit("https://calendar.oily.cn/api?oilycn",['#e4dfd7', '#f9f4dc', '#f7e8aa', '#f7e8aa', '#f8df72', '#fcd217', '#fcc515', '#f28e16', '#fb8b05', '#d85916', '#f43e06'],'oilycn')
                         }
                       </script><!-- hexo injector body_end end -->
         <script src="//cdn.jsdelivr.net/npm/js-base64/base64.min.js"></script>
@@ -285,7 +285,7 @@ for(var i = 0;i<arr.length;i++){
             const strs = href.split('/');
             if (strs.length >= 3) {
                 const host = strs[2];
-                if (host !== 'wfpas.com' || window.location.host) {
+                if (host !== 'oliy.cn' || window.location.host) {
                     $this.attr('href', '/go.html?u='+Base64.encode(href)+'').attr('rel', 'external nofollow noopener noreferrer');
                     if (true) {
                         $this.attr('target', '_blank');
