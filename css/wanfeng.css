@@ -1,3 +1,144 @@
+/* 另一种海浪特效 */
+/* 添加到'public/nav.php'结尾处 */
+/* <div class="separator separator-bottom separator-skew">
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+        </defs>
+        <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0"></use>
+            <use xlink:href="#gentle-wave" x="48" y="3"></use>
+            <use xlink:href="#gentle-wave" x="48" y="5"></use>
+            <use xlink:href="#gentle-wave" x="48" y="7"></use>
+        </g>
+    </svg>
+</div> */
+
+.separator {
+    top: auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+    transform: translateZ(0);
+    overflow: hidden;
+}
+
+.separator,
+.separator svg {
+    position: absolute;
+    pointer-events: none;
+}
+
+.separator-bottom {
+    top: auto;
+    bottom: 0;
+}
+
+.separator-skew {
+    height: 100px;
+}
+
+.waves {
+    position: relative;
+    width: 100%;
+    height: 1vh;
+    margin-bottom: -7px;
+    min-height: 80px;
+    max-height: 100px;
+}
+
+.waves {
+    position: relative;
+    width: 100%;
+    height: 16vh;
+    margin-bottom: -7px;
+    min-height: 80px;
+    max-height: 100px;
+}
+
+
+.parallax>use {
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+[data-theme="light"] .parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+    fill: rgba(255, 255, 255, 0.7)
+}
+
+[data-theme="light"] .parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+    fill: rgba(255, 255, 255, 0.5)
+}
+
+[data-theme="light"] .parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+    fill: rgba(255, 255, 255, 0.3)
+}
+
+[data-theme="light"] .parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+    fill: #fff
+}
+
+
+[data-theme="dark"] .parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+    fill: rgba(0, 0, 0, 0.8)
+}
+
+[data-theme="dark"] .parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+    fill: rgba(0, 0, 0, 0.8)
+}
+
+[data-theme="dark"] .parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+    fill: rgba(0, 0, 0, 0.8)
+}
+
+[data-theme="dark"] .parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+    fill: rgb(0, 0, 0)
+}
+
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
+}
+
+@media (max-width:768px) {
+    .waves {
+        height: 400px;
+    }
+}
+
+/* 添加点点特效 */
+/* #page-header:not(.not-top-img):before {
+    background-image: url(https://cdn.jsdelivr.net/gh/oilycn/MyPic@latest/Hexo/dot.gif);
+} */
+
+#page-header:not(.not-top-img):before {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAKUlEQVQImU3IMREAIAgAwJfNkQCEsH8cijjpMf6vnXlQaIiJFx+omEBfmqIEZLe2jzcAAAAASUVORK5CYII=);
+}
+
+
+
 /* 首页中间字体
 @font-face {
     font-family:'wyFont';
